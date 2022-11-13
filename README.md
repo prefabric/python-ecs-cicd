@@ -9,9 +9,8 @@ A complete CDK project for deploying an end-to-end CI/CD pipeline and infrastruc
 - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Configuring](#onfiguring)
-- [Integrating you python application](#backers-)
-- [Sponsors](#sponsors-)
-- [Acknowledgments](#acknowledgments)
+    - [Integrating you python application](#integrating-you-python-application)
+    - [Deploying](#deploying)
 
 ## Overview
 The goal of this project is to provide a ready-to-use deployment of a CI/CD pipeline in AWS that can be used to build, test and deploy a Python web service to a staging and production environment. It follows best practices outlined in the [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html) and can be used as-is or customized to fit your needs.
