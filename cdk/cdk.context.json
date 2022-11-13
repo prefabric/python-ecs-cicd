@@ -1,0 +1,30 @@
+{
+  "context": {
+    "scaffold_config": {
+      "app_name": "PythonApp",
+      "github_secret_name": "github-token",
+      "prod_enabled": true,
+      "source": {
+        "owner": "vlttnv",
+        "repo": "scaffold"
+      },
+      "staging": {
+        "cidr": "10.0.0.0",
+        "max_azs": 2,
+        "nat_gateways": 1,
+        "desired_count": 1
+      },
+      "prod": {
+        "cidr": "10.100.0.0",
+        "max_azs": 3,
+        "nat_gateways": 1,
+        "desired_count": 3
+      }
+    }
+  },
+  "availability-zones:account=040495770978:region=eu-central-1": [
+    "eu-central-1a",
+    "eu-central-1b",
+    "eu-central-1c"
+  ]
+}

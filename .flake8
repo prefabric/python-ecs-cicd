@@ -1,0 +1,5 @@
+[flake8]
+ignore = C0111,I0011,I0012,E302,E123,E133,E226,E241,E242
+max-line-length = 180
+exclude = tests/*,.git,.venv,cdk/tests
+max-complexity = 10
