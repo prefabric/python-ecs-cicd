@@ -23,10 +23,10 @@ Workflow:
 2. The GitHub hook triggers the CodePipeline pipeline
 3. CodePipeline starts the CodeBuild project which runs the tests, linters and builds the docker image
 4. The built docker image is pushed to the ECR repository
-5. CodePipeline triggers and ECS Deploy action for Staging
+5. CodePipeline triggers an ECS Deploy action for Staging
 6. ECS pulls the new image and updates the services in the staging cluster
 7. After testing in the stating environment the pipeline is now ready to continue when the Manual approval step is approved
-8. CodePipeline triggers and ECS Deploy action for Production
+8. CodePipeline triggers an ECS Deploy action for Production
 9. ECS pulls the new image and updates the services in the production cluster
 
 
